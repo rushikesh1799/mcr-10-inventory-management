@@ -6,6 +6,10 @@
     color: black;
 }
 
+.navigation_wrapper a {
+    text-decoration: none;
+}
+
 .departments_wrapper {
     display: flex;
     gap: 1rem;
@@ -21,6 +25,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 
 .dashboard_wrapper {
@@ -31,6 +36,10 @@
 .dept_cards_container {
     display: flex;
     gap: 1rem;
+}
+
+.main_container {
+    width: 100%;
 }
 
 .product_img {

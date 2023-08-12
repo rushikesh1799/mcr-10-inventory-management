@@ -73,7 +73,7 @@ const ProductsListing = () => {
     return (
         <div className="departments_wrapper">
             <Navigation />
-            <div>
+            <div className="main_container">
                 <Filters />
                 <TableContainer component={Paper}>
                     <Table sx={{ Width: 700 }} aria-label="customized table">
